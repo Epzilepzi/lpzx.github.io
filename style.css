@@ -55,8 +55,7 @@ img {
 }
 
 .topnav a:hover {
-  padding-bottom: 10px;
-  border-bottom: 4px solid limegreen;
+  background-color: limegreen;
 }
 
 .topnav .active {
