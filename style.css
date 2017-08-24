@@ -39,6 +39,10 @@ img {
     padding: 2;
 }
 
+.page {
+    margin-left: 25px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: black;
@@ -69,10 +73,6 @@ img {
 
 .topnav .title{
   background-color: limegreen;
-}
-
-.page {
-    margin-left: 25px;
 }
 
 @media screen and (max-width: 600px) {
