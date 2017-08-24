@@ -45,13 +45,13 @@ img {
 
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: #0c69ff;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: whitesmoke;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -60,20 +60,20 @@ img {
 
 .topnav a:hover {
   padding-bottom: 10px;
-  border-bottom: 4px solid limegreen;
+  border-bottom: 4px solid #bffdff;
 }
 
 .topnav .active {
   padding-bottom: 10px;
-  border-bottom: 4px solid limegreen;
+  border-bottom: 4px solid #bffdff;
 }
 
 .topnav .icon {
   display: none;
 }
 
-.topnav .title{
-  background-color: fuchsia;
+.topnav .title {
+  background-color: inherit;
 }
 
 @media screen and (max-width: 600px) {
