@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 html, body {
   font-family: "Ubuntu";
@@ -28,6 +28,12 @@ h3 {
   color: darkcyan;
 }
 
+h4 {
+  font-size: 32px;
+  font-family: "Ubuntu";
+  color: white;
+}
+
 pre {
   font-family: "Ubuntu";
 }
@@ -39,6 +45,26 @@ img {
     padding: 2;
 }
 
+div {
+    text-align: left;
+}
+
+/* Test
+
+.header {
+  margin-bottom: 10px;
+  background-color: #0c69ff;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  height: 25px;
+}
+
+*/
+
 .page {
     margin-left: 25px;
 }
@@ -46,6 +72,7 @@ img {
 .topnav {
   overflow: hidden;
   background-color: #0c69ff;
+  text-align: left;
 }
 
 .topnav a {
@@ -61,7 +88,7 @@ img {
   font-size: 24px;
 }
 
-.topnav a:hover {
+  .topnav a:hover {
   padding-bottom: 10px;
   border-bottom: 4px solid #bffdff;
 }
