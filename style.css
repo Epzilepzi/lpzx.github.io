@@ -14,28 +14,38 @@ h1 {
   font-size: 36px;
   font-family: "Ubuntu";
   color: navy;
+  max-width: 95%;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
   font-family: "Ubuntu";
-  color: darkmagenta
+  color: darkmagenta;
+  max-width: 95%;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Ubuntu";
   color: darkcyan;
+  max-width: 95%;
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 24px;
   font-family: "Ubuntu";
-  color: white;
+  color: blue;
+  max-width: 95%;
+}
+
+p {
+  font-family: "Ubuntu";
+  max-width: 95%;
 }
 
 pre {
   font-family: "Ubuntu";
+  max-width: 95%;
 }
 
 img {
