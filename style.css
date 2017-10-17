@@ -75,6 +75,13 @@ div {
   text-align: left;
 }
 
+/* NOT WORKING *\
+  .topnav .header {
+  background-color: #bffdff;
+  padding-bottom: 10px;
+}
+*/
+
 .topnav a {
   float: left;
   display: block;
@@ -115,7 +122,9 @@ div {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
