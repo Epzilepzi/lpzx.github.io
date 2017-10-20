@@ -105,6 +105,7 @@ div {
   font-size: 24px;
 }
 
+/* Test
   .topnav a:hover {
   padding-bottom: 10px;
   border-bottom: 4px solid #bffdff;
@@ -114,13 +115,30 @@ div {
   padding-bottom: 10px;
   border-bottom: 4px solid #bffdff;
 }
+*/
 
 .topnav .icon {
   display: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .topnav .title {
   background-color: inherit;
+}
+
+@media screen and (min-width:601px) {
+  .topnav a:hover {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #bffdff;
+  }
+
+  .topnav .active {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #bffdff;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -128,6 +146,18 @@ div {
   .topnav a.icon {
     float: right;
     display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .topnav a:hover {
+    padding-bottom: 10px;
+    background-color: navy;
+  }
+  .topnav .active {
+    padding-bottom: 10px;
+    background-color: navy;
   }
 }
 
@@ -139,11 +169,14 @@ div {
     position: absolute;
     right: 0;
     top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-
 }
