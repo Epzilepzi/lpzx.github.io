@@ -1,1 +1,52 @@
 <!DOCTYPE html>
+<html>
+
+<head> <!-- This is all the technical stuff and metadata -->
+<link rel="stylesheet" href="cyan.css" type="text/css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title> Cyan does a learn. </title>
+</head>
+
+<div class="topnav header" id="myTopnav">
+  <!-- This is the header. -->
+  <a href="about.html">LPZX Project</a> <!-- "a" is a hyperlink -->
+  <a href="index.html">Home</a>
+  <a href="files.html">Files</a>
+  <a href="about.html" class="active">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<body> <!-- This is what an HTML Comment looks like :) -->
+
+  <div class="page">
+    <!-- This is the actual content of the page.-->
+    <h1> Willkommen </h1>
+    <p> I cannot speak le deutch. Du bist ein mokmokmokmokmok. <p>
+    <!-- "pre" means preformatted text. This will show up as is written in the code. -->
+    <pre>
+      Boi is bad
+      Benismeister
+      Benson.
+    </pre>
+    <img src="r3.png" alt="benis">
+  </div>
+
+<!-- This is a javascript function -->
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>
+
+</html>
+
+<!-- Always close everything!!! -->
